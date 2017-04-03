@@ -1,0 +1,11 @@
+JSON data references
+city = city.name
+longitude = city.coord.lon
+latitude = city.coord.lat
+current temp = list.main.temp
+daily high = list.main.temp_max
+daily low = list.main.temp_min
+pressure = list.main.pressure
+humidity = list.main.humidity
+condition group = list.weather.main
+description = list.weather.description
